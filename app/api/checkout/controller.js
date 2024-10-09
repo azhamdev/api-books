@@ -75,5 +75,5 @@ module.exports = {
       if (t) await t.rollback();
       next(err)
     }
-  }
+  },
 }
